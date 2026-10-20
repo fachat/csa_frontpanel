@@ -172,6 +172,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -183,6 +184,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -194,6 +196,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -469,6 +472,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -516,8 +520,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -684,9 +688,24 @@
         "filename": "control.kicad_sch",
         "name": "Control",
         "uuid": "d3828e3e-c02c-4219-b1b5-b973c5beed1e"
+      },
+      {
+        "filename": "remote.kicad_sch",
+        "name": "Remote",
+        "uuid": "fc5f0ce9-fede-4260-8aac-3460c84f272d"
+      },
+      {
+        "filename": "panel.kicad_sch",
+        "name": "Panel",
+        "uuid": "6159386e-3aa7-4f5f-8752-6eeea984621f"
+      },
+      {
+        "filename": "addrleds.kicad_sch",
+        "name": "AddrLEDs",
+        "uuid": "467aee41-8683-4d5e-81f0-39836229a083"
       }
     ],
-    "used_designators": "R1-48,SW1-20,J1-2,#PWR1-109,U1-24,UX25,D1-24,C1-6,C75,C140,#SUPPLY17-18,#GND59-60",
+    "used_designators": "#GND59-61,#PWR1-140,#SUPPLY17-18,C1-6,C75,C140,D1-44,J1-3,R1-71,SW1-21,U1-27,UX25",
     "variants": []
   },
   "sheets": [
@@ -713,6 +732,18 @@
     [
       "d3828e3e-c02c-4219-b1b5-b973c5beed1e",
       "Control"
+    ],
+    [
+      "fc5f0ce9-fede-4260-8aac-3460c84f272d",
+      "Remote"
+    ],
+    [
+      "6159386e-3aa7-4f5f-8752-6eeea984621f",
+      "Panel"
+    ],
+    [
+      "467aee41-8683-4d5e-81f0-39836229a083",
+      "AddrLEDs"
     ]
   ],
   "text_variables": {},

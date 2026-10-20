@@ -1495,6 +1495,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "CSA-FRONTPANEL-1.0A"
+		(exclude_from_sim no)
+		(at 188.595 175.895 0)
+		(effects
+			(font
+				(size 3.81 3.2385)
+			)
+			(justify left bottom)
+		)
+		(uuid "92c591e2-f08f-4eea-ba36-6988fa9b87c1")
+	)
 	(junction
 		(at 205.74 67.945)
 		(diameter 0)
@@ -3604,6 +3615,190 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 236.855 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0448db93-6750-4b9e-9d27-a9548b8566e5")
+		(property "Reference" "R42"
+			(at 237.871 118.999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560"
+			(at 237.871 116.713 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 235.077 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.855 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 236.855 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23204"
+			(at 236.855 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6337c5fe-4aa6-462c-a1bc-4083cfeadaa9")
+		)
+		(pin "2"
+			(uuid "b533c49a-0167-43d8-9365-29147d0ec00e")
+		)
+		(instances
+			(project "Board"
+				(path "/cdbcb6e5-25b3-49d1-a800-4f3b93785ea5"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 224.79 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "04d1d655-9716-47cd-8e77-adcacfac3807")
+		(property "Reference" "R55"
+			(at 225.806 118.999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560"
+			(at 225.806 116.713 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 223.012 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 224.79 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23204"
+			(at 224.79 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1572123-41ff-4770-8208-37ccf6e1265b")
+		)
+		(pin "2"
+			(uuid "48ffdfaa-4a3f-4205-92c5-1273f0e98780")
+		)
+		(instances
+			(project "Board"
+				(path "/cdbcb6e5-25b3-49d1-a800-4f3b93785ea5"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 255.27 120.015 0)
 		(unit 1)
@@ -3921,98 +4116,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 242.57 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1d592e9d-7c60-4779-a761-9d9ff65592f9")
-		(property "Reference" "R44"
-			(at 243.586 118.999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 243.586 116.713 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 240.792 111.76 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 242.57 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C23204"
-			(at 242.57 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5d2475ee-804d-4280-a901-29bb8f004697")
-		)
-		(pin "2"
-			(uuid "238b77a0-94ad-4668-bfb3-6197be32dd56")
-		)
-		(instances
-			(project "Board"
-				(path "/cdbcb6e5-25b3-49d1-a800-4f3b93785ea5"
-					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 260.985 120.015 0)
 		(unit 1)
@@ -4085,6 +4188,98 @@
 			(project "Board"
 				(path "/cdbcb6e5-25b3-49d1-a800-4f3b93785ea5"
 					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 266.7 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "24e11c9c-7106-482c-91fc-b85dda29733e")
+		(property "Reference" "R47"
+			(at 267.716 118.999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560"
+			(at 267.716 116.713 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 264.922 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 266.7 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23204"
+			(at 266.7 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7f360b9-99a4-4c68-93fd-c89b231e6489")
+		)
+		(pin "2"
+			(uuid "18c67a24-4603-4665-a60b-11a007dfcc89")
+		)
+		(instances
+			(project "Board"
+				(path "/cdbcb6e5-25b3-49d1-a800-4f3b93785ea5"
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -4220,98 +4415,6 @@
 			(project "Board"
 				(path "/cdbcb6e5-25b3-49d1-a800-4f3b93785ea5"
 					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 231.14 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2f2dee64-056d-4780-9343-57632a878e02")
-		(property "Reference" "R42"
-			(at 232.156 118.999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 232.156 116.713 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 229.362 111.76 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 231.14 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C23204"
-			(at 231.14 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "372eb93b-d202-496f-bed6-8165ac113d32")
-		)
-		(pin "2"
-			(uuid "eae45485-0155-405c-a170-f86127aa529b")
-		)
-		(instances
-			(project "Board"
-				(path "/cdbcb6e5-25b3-49d1-a800-4f3b93785ea5"
-					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -4693,7 +4796,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 224.79 111.76 0)
+		(at 231.14 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4701,9 +4804,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "421c2837-dea1-49b4-80bf-909c25301ba5")
+		(uuid "493ee3d5-9ff9-43f0-b269-70f81c05aba3")
 		(property "Reference" "R41"
-			(at 225.806 118.999 0)
+			(at 232.156 118.999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4713,8 +4816,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 225.806 116.713 0)
+		(property "Value" "560"
+			(at 232.156 116.713 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4725,7 +4828,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 223.012 111.76 90)
+			(at 229.362 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4736,7 +4839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 111.76 0)
+			(at 231.14 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4747,7 +4850,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 224.79 111.76 0)
+			(at 231.14 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4758,7 +4861,7 @@
 			)
 		)
 		(property "LCSC" "C23204"
-			(at 224.79 111.76 0)
+			(at 231.14 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4769,15 +4872,107 @@
 			)
 		)
 		(pin "1"
-			(uuid "f3865ac8-9c67-49a2-97da-3eee82f9a4a1")
+			(uuid "14aac43b-8af9-4c60-830a-f38bca67b954")
 		)
 		(pin "2"
-			(uuid "8c9b52c9-66bd-439c-a0cc-692f8d4b15d3")
+			(uuid "82f18850-3eab-4922-99b0-3d9127e0f36b")
 		)
 		(instances
 			(project "Board"
 				(path "/cdbcb6e5-25b3-49d1-a800-4f3b93785ea5"
 					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 255.27 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a70e5a4-cd6e-44c3-968d-49339d5c3025")
+		(property "Reference" "R45"
+			(at 256.286 118.999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560"
+			(at 256.286 116.713 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 253.492 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 255.27 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23204"
+			(at 255.27 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7f71146-7bc3-4b23-80af-3bed5ec23912")
+		)
+		(pin "2"
+			(uuid "0f78c739-3051-4afe-9d70-2b234d1599ad")
+		)
+		(instances
+			(project "Board"
+				(path "/cdbcb6e5-25b3-49d1-a800-4f3b93785ea5"
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -4882,98 +5077,6 @@
 			(project "Board"
 				(path "/cdbcb6e5-25b3-49d1-a800-4f3b93785ea5"
 					(reference "D21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 236.855 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6537ef32-eb47-4e93-859c-93afbe1ebe6b")
-		(property "Reference" "R43"
-			(at 237.871 118.999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 237.871 116.713 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 235.077 111.76 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.855 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 236.855 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C23204"
-			(at 236.855 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "514e9cba-71b4-4203-9696-89a09c23690a")
-		)
-		(pin "2"
-			(uuid "704fd819-43b1-4491-b414-8822a0a0b08e")
-		)
-		(instances
-			(project "Board"
-				(path "/cdbcb6e5-25b3-49d1-a800-4f3b93785ea5"
-					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -5129,6 +5232,98 @@
 			(project "Board"
 				(path "/cdbcb6e5-25b3-49d1-a800-4f3b93785ea5"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 242.57 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7511822f-1235-40f8-ba93-fa024c850995")
+		(property "Reference" "R43"
+			(at 243.586 118.999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560"
+			(at 243.586 116.713 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 240.792 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 242.57 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23204"
+			(at 242.57 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0df197aa-8668-4385-9746-a5f5fbd26952")
+		)
+		(pin "2"
+			(uuid "f259e44a-3a87-42f2-85cb-87011584b290")
+		)
+		(instances
+			(project "Board"
+				(path "/cdbcb6e5-25b3-49d1-a800-4f3b93785ea5"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -5318,7 +5513,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 255.27 111.76 0)
+		(at 260.985 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5326,9 +5521,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7f585688-a4df-46e2-a92f-8fca4c69a917")
+		(uuid "8b42752d-d3c3-48b1-b490-96251db9c04d")
 		(property "Reference" "R46"
-			(at 256.286 118.999 0)
+			(at 262.001 118.999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5338,8 +5533,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 256.286 116.713 0)
+		(property "Value" "560"
+			(at 262.001 116.713 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5350,7 +5545,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 253.492 111.76 90)
+			(at 259.207 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5361,7 +5556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 111.76 0)
+			(at 260.985 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5372,7 +5567,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 255.27 111.76 0)
+			(at 260.985 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5383,7 +5578,7 @@
 			)
 		)
 		(property "LCSC" "C23204"
-			(at 255.27 111.76 0)
+			(at 260.985 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5394,10 +5589,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "34aae116-3b5a-4a67-ba0d-dd177d757ea5")
+			(uuid "6c23a3b5-7b15-47e0-92d7-ad5e968c7b7a")
 		)
 		(pin "2"
-			(uuid "646a967e-5da2-4488-ad87-2bc0f718d1b4")
+			(uuid "efcd5a14-555f-45fd-933d-ef2e39cebbbd")
 		)
 		(instances
 			(project "Board"
@@ -6016,98 +6211,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 248.92 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b2e018d6-1d00-4c71-a656-7cf8b71ee310")
-		(property "Reference" "R45"
-			(at 249.936 118.999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 249.936 116.713 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 247.142 111.76 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 248.92 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C23204"
-			(at 248.92 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "86ae1930-f5f9-41d6-bcca-21fbfa4a6c97")
-		)
-		(pin "2"
-			(uuid "9fc8b695-99d6-4458-a58b-1151e7009270")
-		)
-		(instances
-			(project "Board"
-				(path "/cdbcb6e5-25b3-49d1-a800-4f3b93785ea5"
-					(reference "R45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 205.74 67.945 0)
 		(unit 1)
@@ -6179,98 +6282,6 @@
 			(project "Board"
 				(path "/cdbcb6e5-25b3-49d1-a800-4f3b93785ea5"
 					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 266.7 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c0b78d86-9f58-420a-b4ba-ef83e28e4919")
-		(property "Reference" "R48"
-			(at 267.716 118.999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 267.716 116.713 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 264.922 111.76 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 266.7 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C23204"
-			(at 266.7 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0f306669-393e-45b9-a41e-aef5b262baa5")
-		)
-		(pin "2"
-			(uuid "c1914a34-8293-4f56-8ab4-b5ec758c12ba")
-		)
-		(instances
-			(project "Board"
-				(path "/cdbcb6e5-25b3-49d1-a800-4f3b93785ea5"
-					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -6349,6 +6360,98 @@
 			(project "Board"
 				(path "/cdbcb6e5-25b3-49d1-a800-4f3b93785ea5"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 248.92 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c1f542ab-4692-4239-9f9f-a774c02be74d")
+		(property "Reference" "R44"
+			(at 249.936 118.999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560"
+			(at 249.936 116.713 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 247.142 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 248.92 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23204"
+			(at 248.92 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7964162-ac08-4cef-82ef-71dc0fca0c6e")
+		)
+		(pin "2"
+			(uuid "cae2a116-8b32-43a6-873f-01df84449b64")
+		)
+		(instances
+			(project "Board"
+				(path "/cdbcb6e5-25b3-49d1-a800-4f3b93785ea5"
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -6453,98 +6556,6 @@
 			(project "Board"
 				(path "/cdbcb6e5-25b3-49d1-a800-4f3b93785ea5"
 					(reference "D24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 260.985 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cc132ba7-c3d4-4d4d-9fce-59a72f4a6020")
-		(property "Reference" "R47"
-			(at 262.001 118.999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 262.001 116.713 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 259.207 111.76 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.985 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 260.985 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C23204"
-			(at 260.985 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b810bf32-a840-46d8-b983-4e95cf41a30a")
-		)
-		(pin "2"
-			(uuid "e171a37b-7280-4d6d-b253-6993434b5dd1")
-		)
-		(instances
-			(project "Board"
-				(path "/cdbcb6e5-25b3-49d1-a800-4f3b93785ea5"
-					(reference "R47")
 					(unit 1)
 				)
 			)

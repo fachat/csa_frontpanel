@@ -1516,6 +1516,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "CSA-FRONTPANEL-1.0A"
+		(exclude_from_sim no)
+		(at 323.215 262.255 0)
+		(effects
+			(font
+				(size 3.81 3.2385)
+			)
+			(justify left bottom)
+		)
+		(uuid "46ab97d6-7662-4701-af9d-1f11e933698e")
+	)
 	(junction
 		(at 193.675 88.9)
 		(diameter 0)

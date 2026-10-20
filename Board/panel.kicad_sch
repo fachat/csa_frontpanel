@@ -1,0 +1,416 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e83f9a1f-c71b-447f-a887-9a61e26e7a44")
+	(paper "A4")
+	(lib_symbols)
+	(circle
+		(center 124.46 86.995)
+		(radius 1.7961)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0de19599-e7af-4ccc-8afc-803af6162b4e")
+	)
+	(rectangle
+		(start 151.13 116.84)
+		(end 156.845 121.285)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1345f11d-a378-47e9-a243-70ec160b0cb0")
+	)
+	(rectangle
+		(start 61.595 93.345)
+		(end 117.475 97.79)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "17454c8c-8b29-452a-9151-8b859a6d4c61")
+	)
+	(rectangle
+		(start 151.765 123.825)
+		(end 157.48 133.985)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4fb55168-e07a-4873-9607-5b9029196e4e")
+	)
+	(rectangle
+		(start 89.535 123.825)
+		(end 145.415 133.985)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "575b221f-dda9-4e15-84f1-9d7b9371a569")
+	)
+	(rectangle
+		(start 127.635 84.455)
+		(end 183.515 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "5a1a6ca4-a48b-492c-9a82-c81077359ea0")
+	)
+	(rectangle
+		(start 89.535 116.84)
+		(end 145.415 121.285)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "74c14e86-0b32-4095-a6d0-927aac6215db")
+	)
+	(rectangle
+		(start 131.445 102.87)
+		(end 137.16 107.315)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9930cdd8-9032-41b9-ab6b-dc1d42b591b2")
+	)
+	(rectangle
+		(start 61.595 100.33)
+		(end 117.475 110.49)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "adb331a4-74b5-4e61-9ef6-8748eebfd488")
+	)
+	(rectangle
+		(start 142.24 102.87)
+		(end 147.955 107.315)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c182935a-6565-4773-a188-30ebc2aaafc5")
+	)
+	(rectangle
+		(start 127.635 93.345)
+		(end 183.515 97.79)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c18bce3b-d841-4c98-ad43-06afb42d3ab9")
+	)
+	(circle
+		(center 57.785 86.995)
+		(radius 1.7961)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d5ae34f7-e663-4d47-8206-5de4173a2f81")
+	)
+	(rectangle
+		(start 160.02 116.84)
+		(end 165.735 121.285)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d674e89b-1e05-45dd-af20-a0da8bd0494d")
+	)
+	(rectangle
+		(start 61.595 84.455)
+		(end 117.475 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "eb009025-d25d-43de-ace9-62f3b9ee20a0")
+	)
+	(circle
+		(center 124.46 95.25)
+		(radius 1.7961)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f84e3458-8724-4861-86f5-e167485b91b4")
+	)
+	(rectangle
+		(start 160.02 124.46)
+		(end 165.735 128.905)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f980f86d-929d-49d4-9f57-ff9a65dd10e0")
+	)
+	(text "CONT"
+		(exclude_from_sim no)
+		(at 154.305 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0a964b74-86b3-4a7c-a265-2ddb6afb7ce7")
+	)
+	(text "8 Toggle for control. A16-23"
+		(exclude_from_sim no)
+		(at 115.57 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0fb2c558-d52c-42c0-ac37-63ea72b00120")
+	)
+	(text "DCLK"
+		(exclude_from_sim no)
+		(at 145.415 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "24ae3459-90dd-4580-b546-925b38286ea9")
+	)
+	(text "CSA-FRONTPANEL-1.0A"
+		(exclude_from_sim no)
+		(at 194.945 177.8 0)
+		(effects
+			(font
+				(size 3.81 3.2385)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c2834e5-5141-4cd2-bc96-cebcefd87e47")
+	)
+	(text "8 LED A15-8"
+		(exclude_from_sim no)
+		(at 87.63 86.995 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3bfed773-9847-4aa7-b0c8-5d773174804f")
+	)
+	(text "RES"
+		(exclude_from_sim no)
+		(at 134.62 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "442e53dd-03e2-4ae1-bf8f-1389d79e2610")
+	)
+	(text "L"
+		(exclude_from_sim no)
+		(at 57.785 86.995 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6326a806-1102-45e1-9519-965b48023f17")
+	)
+	(text "8 control input monitor LEDs"
+		(exclude_from_sim no)
+		(at 115.57 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7e3fe97c-f40a-45ec-a76c-9cf30f173d43")
+	)
+	(text "AL"
+		(exclude_from_sim no)
+		(at 163.195 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8b4938f3-8389-4824-ab9a-03c2f1c154c3")
+	)
+	(text "8 LED A7-0"
+		(exclude_from_sim no)
+		(at 153.67 86.995 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9847c5e4-da7e-4c0f-9bdd-c3eed372d365")
+	)
+	(text "AH"
+		(exclude_from_sim no)
+		(at 163.195 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b96fb40b-449c-4207-93df-fcc18af62875")
+	)
+	(text "8 data input monitor LEDs"
+		(exclude_from_sim no)
+		(at 87.63 95.885 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b9d4fab2-0092-4675-8e17-941d467cb08d")
+	)
+	(text "H"
+		(exclude_from_sim no)
+		(at 124.46 86.995 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d0f04fdb-bf15-447b-8d07-8e0f3f6c70eb")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 124.46 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e27306eb-d119-4991-9ea9-a4f8591eec54")
+	)
+	(text "CONT\nLED"
+		(exclude_from_sim no)
+		(at 154.305 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e3a87361-9e4d-44ee-ab74-dac5243bb09f")
+	)
+	(text "8 LED D7-0 IN"
+		(exclude_from_sim no)
+		(at 153.67 95.885 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e5059b54-23bf-4dc4-a453-2c73f4289fee")
+	)
+	(text "8 Toggle for Data input"
+		(exclude_from_sim no)
+		(at 87.63 106.045 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f5ee211d-bb88-4d4c-80e4-1b363cedcf0d")
+	)
+	(wire
+		(pts
+			(xy 211.455 57.785) (xy 211.455 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ec225cd-7082-43ac-bfd0-b984af6c0ad2")
+	)
+	(wire
+		(pts
+			(xy 44.45 57.785) (xy 44.45 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "302ab322-572c-4da1-8bc4-b48895b423a1")
+	)
+	(wire
+		(pts
+			(xy 44.45 57.785) (xy 211.455 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f774df2c-2238-4898-b972-8c39844665d5")
+	)
+	(wire
+		(pts
+			(xy 211.455 140.335) (xy 44.45 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c17750-1ff5-4bab-9aed-66a42c1f29ea")
+	)
+	(sheet_instances
+		(path "/"
+			(page "8")
+		)
+	)
+)

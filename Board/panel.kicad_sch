@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(circle
-		(center 124.46 86.995)
+		(center 146.05 86.995)
 		(radius 1.7961)
 		(stroke
 			(width 0)
@@ -18,8 +18,8 @@
 		(uuid "0de19599-e7af-4ccc-8afc-803af6162b4e")
 	)
 	(rectangle
-		(start 151.13 116.84)
-		(end 156.845 121.285)
+		(start 245.745 99.695)
+		(end 251.46 104.14)
 		(stroke
 			(width 0)
 			(type default)
@@ -30,8 +30,8 @@
 		(uuid "1345f11d-a378-47e9-a243-70ec160b0cb0")
 	)
 	(rectangle
-		(start 61.595 93.345)
-		(end 117.475 97.79)
+		(start 149.225 99.695)
+		(end 205.105 104.14)
 		(stroke
 			(width 0)
 			(type default)
@@ -42,8 +42,8 @@
 		(uuid "17454c8c-8b29-452a-9151-8b859a6d4c61")
 	)
 	(rectangle
-		(start 151.765 123.825)
-		(end 157.48 133.985)
+		(start 246.38 106.68)
+		(end 252.095 116.84)
 		(stroke
 			(width 0)
 			(type default)
@@ -54,8 +54,8 @@
 		(uuid "4fb55168-e07a-4873-9607-5b9029196e4e")
 	)
 	(rectangle
-		(start 89.535 123.825)
-		(end 145.415 133.985)
+		(start 52.705 109.22)
+		(end 205.74 120.015)
 		(stroke
 			(width 0)
 			(type solid)
@@ -66,8 +66,8 @@
 		(uuid "575b221f-dda9-4e15-84f1-9d7b9371a569")
 	)
 	(rectangle
-		(start 127.635 84.455)
-		(end 183.515 88.9)
+		(start 149.225 84.455)
+		(end 205.105 88.9)
 		(stroke
 			(width 0)
 			(type default)
@@ -78,20 +78,20 @@
 		(uuid "5a1a6ca4-a48b-492c-9a82-c81077359ea0")
 	)
 	(rectangle
-		(start 89.535 116.84)
-		(end 145.415 121.285)
+		(start 52.07 93.345)
+		(end 73.66 103.505)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
 		)
-		(uuid "74c14e86-0b32-4095-a6d0-927aac6215db")
+		(uuid "7bdf8e6c-de83-4073-a92e-bbb7fe9e5325")
 	)
 	(rectangle
-		(start 131.445 102.87)
-		(end 137.16 107.315)
+		(start 226.06 85.725)
+		(end 231.775 90.17)
 		(stroke
 			(width 0)
 			(type default)
@@ -102,8 +102,8 @@
 		(uuid "9930cdd8-9032-41b9-ab6b-dc1d42b591b2")
 	)
 	(rectangle
-		(start 61.595 100.33)
-		(end 117.475 110.49)
+		(start 83.185 93.345)
+		(end 139.065 103.505)
 		(stroke
 			(width 0)
 			(type solid)
@@ -114,8 +114,8 @@
 		(uuid "adb331a4-74b5-4e61-9ef6-8748eebfd488")
 	)
 	(rectangle
-		(start 142.24 102.87)
-		(end 147.955 107.315)
+		(start 236.855 85.725)
+		(end 242.57 90.17)
 		(stroke
 			(width 0)
 			(type default)
@@ -126,8 +126,8 @@
 		(uuid "c182935a-6565-4773-a188-30ebc2aaafc5")
 	)
 	(rectangle
-		(start 127.635 93.345)
-		(end 183.515 97.79)
+		(start 149.225 92.075)
+		(end 205.105 96.52)
 		(stroke
 			(width 0)
 			(type default)
@@ -138,7 +138,7 @@
 		(uuid "c18bce3b-d841-4c98-ad43-06afb42d3ab9")
 	)
 	(circle
-		(center 57.785 86.995)
+		(center 79.375 86.995)
 		(radius 1.7961)
 		(stroke
 			(width 0)
@@ -150,8 +150,8 @@
 		(uuid "d5ae34f7-e663-4d47-8206-5de4173a2f81")
 	)
 	(rectangle
-		(start 160.02 116.84)
-		(end 165.735 121.285)
+		(start 254.635 99.695)
+		(end 260.35 104.14)
 		(stroke
 			(width 0)
 			(type default)
@@ -162,8 +162,8 @@
 		(uuid "d674e89b-1e05-45dd-af20-a0da8bd0494d")
 	)
 	(rectangle
-		(start 61.595 84.455)
-		(end 117.475 88.9)
+		(start 83.185 84.455)
+		(end 139.065 88.9)
 		(stroke
 			(width 0)
 			(type default)
@@ -173,8 +173,20 @@
 		)
 		(uuid "eb009025-d25d-43de-ace9-62f3b9ee20a0")
 	)
+	(rectangle
+		(start 52.07 84.455)
+		(end 73.66 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f171f8d7-aeb1-424d-ab5e-d34aac18afc0")
+	)
 	(circle
-		(center 124.46 95.25)
+		(center 146.05 93.98)
 		(radius 1.7961)
 		(stroke
 			(width 0)
@@ -186,8 +198,8 @@
 		(uuid "f84e3458-8724-4861-86f5-e167485b91b4")
 	)
 	(rectangle
-		(start 160.02 124.46)
-		(end 165.735 128.905)
+		(start 254.635 107.315)
+		(end 260.35 111.76)
 		(stroke
 			(width 0)
 			(type default)
@@ -199,7 +211,7 @@
 	)
 	(text "CONT"
 		(exclude_from_sim no)
-		(at 154.305 128.27 0)
+		(at 248.92 111.125 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -207,9 +219,9 @@
 		)
 		(uuid "0a964b74-86b3-4a7c-a265-2ddb6afb7ce7")
 	)
-	(text "8 Toggle for control. A16-23"
+	(text "Toggle for control. \nand Control LEDS"
 		(exclude_from_sim no)
-		(at 115.57 129.54 0)
+		(at 129.54 114.935 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -219,7 +231,7 @@
 	)
 	(text "DCLK"
 		(exclude_from_sim no)
-		(at 145.415 105.41 0)
+		(at 240.03 88.265 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -240,7 +252,7 @@
 	)
 	(text "8 LED A15-8"
 		(exclude_from_sim no)
-		(at 87.63 86.995 0)
+		(at 109.22 86.995 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -250,7 +262,7 @@
 	)
 	(text "RES"
 		(exclude_from_sim no)
-		(at 134.62 105.41 0)
+		(at 229.235 88.265 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -260,7 +272,7 @@
 	)
 	(text "L"
 		(exclude_from_sim no)
-		(at 57.785 86.995 0)
+		(at 79.375 86.995 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -268,19 +280,19 @@
 		)
 		(uuid "6326a806-1102-45e1-9519-965b48023f17")
 	)
-	(text "8 control input monitor LEDs"
+	(text "4 LED A23-16"
 		(exclude_from_sim no)
-		(at 115.57 119.38 0)
+		(at 62.865 86.995 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "7e3fe97c-f40a-45ec-a76c-9cf30f173d43")
+		(uuid "6420ed48-549f-4049-8eb8-c47f2b875423")
 	)
 	(text "AL"
 		(exclude_from_sim no)
-		(at 163.195 119.38 0)
+		(at 257.81 102.235 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -288,9 +300,19 @@
 		)
 		(uuid "8b4938f3-8389-4824-ab9a-03c2f1c154c3")
 	)
+	(text "4 Toggle for A16-23"
+		(exclude_from_sim no)
+		(at 62.865 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "96ef1ba0-b359-4f07-9059-f309edb7b10e")
+	)
 	(text "8 LED A7-0"
 		(exclude_from_sim no)
-		(at 153.67 86.995 0)
+		(at 175.26 86.995 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -300,7 +322,7 @@
 	)
 	(text "AH"
 		(exclude_from_sim no)
-		(at 163.195 127 0)
+		(at 257.81 109.855 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -310,7 +332,7 @@
 	)
 	(text "8 data input monitor LEDs"
 		(exclude_from_sim no)
-		(at 87.63 95.885 0)
+		(at 175.26 102.235 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -320,7 +342,7 @@
 	)
 	(text "H"
 		(exclude_from_sim no)
-		(at 124.46 86.995 0)
+		(at 146.05 86.995 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -330,7 +352,7 @@
 	)
 	(text "D"
 		(exclude_from_sim no)
-		(at 124.46 95.25 0)
+		(at 146.05 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -340,7 +362,7 @@
 	)
 	(text "CONT\nLED"
 		(exclude_from_sim no)
-		(at 154.305 119.38 0)
+		(at 248.92 102.235 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -350,7 +372,7 @@
 	)
 	(text "8 LED D7-0 IN"
 		(exclude_from_sim no)
-		(at 153.67 95.885 0)
+		(at 175.26 94.615 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -360,7 +382,7 @@
 	)
 	(text "8 Toggle for Data input"
 		(exclude_from_sim no)
-		(at 87.63 106.045 0)
+		(at 109.22 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -703,9 +703,14 @@
         "filename": "addrleds.kicad_sch",
         "name": "AddrLEDs",
         "uuid": "467aee41-8683-4d5e-81f0-39836229a083"
+      },
+      {
+        "filename": "control2.kicad_sch",
+        "name": "Control2",
+        "uuid": "314cedb5-d0b8-4979-9c44-16e00472b8ee"
       }
     ],
-    "used_designators": "#GND59-61,#PWR1-140,#SUPPLY17-18,C1-6,C75,C140,D1-44,J1-3,R1-71,SW1-21,U1-27,UX25",
+    "used_designators": "#GND59-61,#PWR1-144,#SUPPLY17-18,C1-6,C75,C140,D1-49,J1-3,R1-78,SW1-22,U1-34,UX25",
     "variants": []
   },
   "sheets": [
@@ -722,16 +727,16 @@
       "Address"
     ],
     [
-      "6b5001cb-29b4-43b6-81c7-fa1532d1fddb",
-      "Driver"
+      "467aee41-8683-4d5e-81f0-39836229a083",
+      "AddrLEDs"
     ],
     [
       "cdbcb6e5-25b3-49d1-a800-4f3b93785ea5",
       "Data"
     ],
     [
-      "d3828e3e-c02c-4219-b1b5-b973c5beed1e",
-      "Control"
+      "6b5001cb-29b4-43b6-81c7-fa1532d1fddb",
+      "Driver"
     ],
     [
       "fc5f0ce9-fede-4260-8aac-3460c84f272d",
@@ -742,8 +747,12 @@
       "Panel"
     ],
     [
-      "467aee41-8683-4d5e-81f0-39836229a083",
-      "AddrLEDs"
+      "d3828e3e-c02c-4219-b1b5-b973c5beed1e",
+      "Control"
+    ],
+    [
+      "314cedb5-d0b8-4979-9c44-16e00472b8ee",
+      "Control2"
     ]
   ],
   "text_variables": {},

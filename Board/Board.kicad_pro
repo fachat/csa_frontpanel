@@ -708,9 +708,14 @@
         "filename": "control2.kicad_sch",
         "name": "Control2",
         "uuid": "314cedb5-d0b8-4979-9c44-16e00472b8ee"
+      },
+      {
+        "filename": "input2.kicad_sch",
+        "name": "Input2",
+        "uuid": "c781f73c-7336-459e-a859-fb07d9dd510d"
       }
     ],
-    "used_designators": "#GND59-61,#PWR1-144,#SUPPLY17-18,C1-6,C75,C140,D1-49,J1-3,R1-78,SW1-22,U1-34,UX25",
+    "used_designators": "#GND59-61,#PWR1-146,#SUPPLY17-18,C1-6,C75,C140,D1-51,J1-3,R1-81,SW1-23,U1-37,UX25",
     "variants": []
   },
   "sheets": [
@@ -753,6 +758,10 @@
     [
       "314cedb5-d0b8-4979-9c44-16e00472b8ee",
       "Control2"
+    ],
+    [
+      "c781f73c-7336-459e-a859-fb07d9dd510d",
+      "Input2"
     ]
   ],
   "text_variables": {},

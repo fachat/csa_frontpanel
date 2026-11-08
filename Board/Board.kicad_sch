@@ -4037,16 +4037,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 116.84) (xy 126.365 116.84)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d4aa4bc3-63ff-483b-a85a-d0e5b3af406e")
-	)
-	(wire
-		(pts
 			(xy 242.57 80.645) (xy 250.825 80.645)
 		)
 		(stroke
@@ -5255,7 +5245,7 @@
 			)
 		)
 	)
-	(global_label "BA14"
+	(global_label "BA15"
 		(shape bidirectional)
 		(at 217.805 75.565 180)
 		(fields_autoplaced yes)
@@ -5591,7 +5581,7 @@
 			)
 		)
 	)
-	(global_label "BA15"
+	(global_label "BA16"
 		(shape bidirectional)
 		(at 250.825 73.025 0)
 		(fields_autoplaced yes)
@@ -6023,30 +6013,6 @@
 			)
 		)
 	)
-	(global_label "BPHI2"
-		(shape bidirectional)
-		(at 250.825 108.585 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "db8e6da9-c5ae-44ae-86ea-fbb05904c48d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.4103 108.585 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "/BRES"
 		(shape bidirectional)
 		(at 73.66 132.08 180)
@@ -6116,30 +6082,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "BPHI2"
-		(shape bidirectional)
-		(at 126.365 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "e50f3141-ae33-4050-83b4-d0b535143239")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.9503 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -6929,6 +6871,7 @@
 		)
 		(property "Value" "Conn_02x25_Odd_Even"
 			(at 236.22 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7231,7 +7174,6 @@
 		(uuid "f45d52de-ffc5-465d-8425-b817cd5a4f73")
 		(property "Reference" "UX25"
 			(at 104.14 109.22 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

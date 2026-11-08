@@ -2765,7 +2765,6 @@
 		)
 		(property "Value" "LED"
 			(at 232.918 118.999 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2961,7 +2960,6 @@
 		)
 		(property "Value" "LED"
 			(at 227.203 118.999 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3076,7 +3074,6 @@
 		)
 		(property "Value" "LED"
 			(at 238.633 118.999 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3428,10 +3425,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4b3a7afc-a890-4117-a86a-997c311b5897")
 		(property "Reference" "U31"
-			(at 76.2 161.9249 0)
+			(at 66.675 160.655 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3442,8 +3438,7 @@
 			)
 		)
 		(property "Value" "74LS06"
-			(at 70.4849 156.21 90)
-			(hide yes)
+			(at 65.405 163.195 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3828,7 +3823,6 @@
 		)
 		(property "Value" "LED"
 			(at 244.983 118.999 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4024,7 +4018,6 @@
 		)
 		(property "Value" "LED"
 			(at 257.048 118.999 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4220,7 +4213,6 @@
 		)
 		(property "Value" "LED"
 			(at 220.853 118.999 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4335,7 +4327,6 @@
 		)
 		(property "Value" "LED"
 			(at 251.333 118.999 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4531,7 +4522,6 @@
 		)
 		(property "Value" "LED"
 			(at 262.763 118.999 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4699,10 +4689,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f0a233f6-009c-426b-a193-624e2e62b0d0")
 		(property "Reference" "U30"
-			(at 54.61 161.9249 0)
+			(at 45.085 160.655 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4713,8 +4702,7 @@
 			)
 		)
 		(property "Value" "74LS06"
-			(at 48.8949 156.21 90)
-			(hide yes)
+			(at 43.815 163.195 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4843,7 +4831,6 @@
 		)
 		(property "Value" "74LS06"
 			(at 101.5999 60.325 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4971,7 +4958,6 @@
 		)
 		(property "Value" "74LS06"
 			(at 113.0299 66.04 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

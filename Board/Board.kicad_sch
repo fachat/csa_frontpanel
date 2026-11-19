@@ -6539,7 +6539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 152.0952 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6572,7 +6572,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C96123"
+		(property "LCSC" "C16780"
 			(at 151.13 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6788,7 +6788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 124.1552 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6821,7 +6821,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C96123"
+		(property "LCSC" "C16780"
 			(at 123.19 72.39 0)
 			(hide yes)
 			(show_name no)

@@ -1056,6 +1056,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "To\nBus"
+		(exclude_from_sim no)
+		(at 193.675 74.93 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "25102081-c0b7-4c49-b4a2-8d74dc027eff")
+	)
+	(text "From\nBus"
+		(exclude_from_sim no)
+		(at 119.38 74.93 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "271f10ad-527e-48a7-8bd3-7389f2860a9c")
+	)
 	(text "CSA-FRONTPANEL-1.0A"
 		(exclude_from_sim no)
 		(at 193.675 175.895 0)
@@ -1485,7 +1505,7 @@
 			)
 		)
 	)
-	(global_label "ACK"
+	(global_label "{slash}ACK"
 		(shape input)
 		(at 138.43 86.36 180)
 		(fields_autoplaced yes)
@@ -1497,7 +1517,7 @@
 		)
 		(uuid "6f039ced-e677-40bd-8bde-ac41992d6480")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.8162 86.36 0)
+			(at 130.4857 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

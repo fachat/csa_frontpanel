@@ -5532,10 +5532,10 @@
 			(uuid "6228a979-7c07-4cda-a48d-587801b4b4ac")
 		)
 		(pin "7"
-			(uuid "2dd389df-2b6e-4f25-b24f-60336503baef")
+			(uuid "2dd389df-2b6e-4f25-b24f-60336503baf0")
 		)
 		(pin "14"
-			(uuid "159b516a-c15a-4e2f-9a65-1e4c1d900589")
+			(uuid "159b516a-c15a-4e2f-9a65-1e4c1d90058a")
 		)
 		(pin "10"
 			(uuid "2d915e3a-b41b-4ee4-9a0a-502bedceee9e")
